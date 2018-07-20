@@ -1,0 +1,20 @@
+branch-defaults:
+  default:
+    environment: wassha-dev
+environment-defaults:
+  wassha-dev:
+    branch: null
+    repository: null
+global:
+  application_name: wassha-server
+  default_ec2_keyname: wassha-2018
+  default_platform: arn:aws:elasticbeanstalk:ap-southeast-1::platform/PHP 7.1 running
+    on 64bit Amazon Linux/2.7.1
+  default_region: ap-southeast-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: wassha-root
+  sc: null
+  workspace_type: Application
